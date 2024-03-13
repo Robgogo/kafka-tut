@@ -1,0 +1,34 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "company": {
+            "$ref": "#/definitions/company"
+        },
+        "public": {
+            "$ref": "#/definitions/public"
+        },
+        "department": {
+            "$ref": "#/definitions/department"
+        }
+    },
+    "required": [
+        "company",
+        "public",
+        "department"
+    ],
+    "definitions": {
+        "company": {
+            "type": "string",
+            "description": "The company's name"
+        },
+        "public": {
+            "type": "boolean",
+            "description": "The company's public status"
+        },
+        "department": {
+            "type": "string",
+            "description": "The company's dwp"
+        }
+    }
+}

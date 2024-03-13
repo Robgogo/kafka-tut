@@ -1,0 +1,21 @@
+{
+  "name": "kafka-tut",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:producer": "node --loader ts-node/esm producer.ts",
+    "start:consumer": "node --loader ts-node/esm consumer.ts",
+    "test": "test"
+  },
+  "author": "Robera Worku",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@kafkajs/confluent-schema-registry": "^3.3.0",
+    "kafkajs": "^2.2.4"
+  }
+}

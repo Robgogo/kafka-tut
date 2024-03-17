@@ -1,6 +1,6 @@
 # Kafka Tutorial
 
-This repository contains a Kafka tutorial with a simple Kafka setup in a Docker file. It uses the KafkaJs library and Schema Registry to handle producing and consuming messages.
+This repository contains a Kafka tutorial with a simple Kafka setup in a docker container (using docker-compose, to compose all the containers we need in this project). It uses the KafkaJs library and Schema Registry to handle producing and consuming messages.
 
 ## Prerequisites
 
